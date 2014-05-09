@@ -3,7 +3,7 @@
 #include "RegisterClasses.h"
 #include "RegisterMonoModules.h"
 
-// Hack to work around iOS SDK 4.3 linker problem
+// Hack to bwork around iOS SDK 4.3 linker problem
 // we need at least one __TEXT, __const section entry in main application .o files
 // to get this section emitted at right time and so avoid LC_ENCRYPTION_INFO size miscalculation
 static const int constsection = 0;
